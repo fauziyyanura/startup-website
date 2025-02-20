@@ -27,6 +27,8 @@ return(
         <ul className={`nav-links ${menuOpen ? 'show' : ''}`} id="navLinks">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/portfolio">Portfolio</Link></li>
+            <li><Link to="/service"> Service</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
         </ul>
         </nav>
         <div className="welcome-section">
