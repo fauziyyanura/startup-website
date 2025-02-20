@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from './nav'
 import Us from './us';
+import Message from './message'
 import Footer from './footer';
 
 const CONTACT = () => {
@@ -9,6 +10,7 @@ const CONTACT = () => {
             <Nav />
             <main>
                 <Us />
+                <Message />
             </main>
             <Footer />
         </div>
