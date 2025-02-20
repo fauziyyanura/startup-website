@@ -59,7 +59,6 @@ const Message = () => {
         </div>
 
         <div className="map-container">
-            <h3>Our Location</h3>
             {/*Embedded map using iframe*/}
             <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3527.4155516542905!2d8.568172461892175!3d11.996181684825755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11ae817cc2709ecb%3A0xd88b17fa4595980a!2sMusa%20Tudun%20Wada%20Link%2C%20Giginyu%2C%20Kano%20700213%2C%20Kano!5e0!3m2!1sen!2sng!4v1740077172033!5m2!1sen!2sng" 
