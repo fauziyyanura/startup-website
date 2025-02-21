@@ -32,7 +32,7 @@ Welcome to the Startup Website. The startup website is the online presence for a
 This website is designed to provide innovative, efficient and user-friendly solutions to every problems, empowering businesses and individuals alike.Users can navigate between pages (e.g., homepage and portfolio) via React Router, ensuring smooth transitions and experience.
 
 ## Live Demo
-Check out live demo of my project:[Live Demo Link]( https://fauziyyanura.github.io/startup-website-2/)
+Check out live demo of my project:[Live Demo Link]( https://fauziyyanura.github.io/startup-website)
 
 ## Features
 -Animations: Libraries like Framer Motion was used to add engaging animations and transitions to the app.
