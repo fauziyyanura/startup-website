@@ -9,8 +9,8 @@ const Our = () => {
         <>
         <div className='service-plan'>
         <p> <span>PLANS</span></p>
-        <h1>Our service</h1>
-        <p> Lorem ipsum , dolor sit amet consectetur adipisicingg elit</p>
+        <h1>Our Service</h1>
+        <p> Lorem ipsum , dolor sit amet consectetur adipisicing elit</p>
         </div>
         <motion.div
         className="frame"

@@ -52,7 +52,7 @@ const Message = () => {
                         <p><strong>Name:</strong> {submittedData.name}</p>
                         <p><strong>Email:</strong> {submittedData.email}</p>
                         <p><strong>Message:</strong> {submittedData.message}</p>
-                        <button onClick={() => setSubmittedMessage('')}>Submit Another Message</button>
+                        <button class="styled-button" onClick={() => setSubmittedMessage('')}>Submit Another Message</button>
 
                     </div>
                 )}

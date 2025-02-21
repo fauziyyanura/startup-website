@@ -5,6 +5,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body, html {
+  overflow-x: hidden;
+}
 main{
   margin: 0px;
   padding: 0px;
@@ -284,6 +287,9 @@ margin-bottom: 20px;
   font-weight: 700;
   letter-spacing: 5px;
 }
+.works p{
+  margin-bottom: 20px;
+}
 .ports{
   display: flex;
   flex-direction: column; 
@@ -306,6 +312,12 @@ margin-bottom: 20px;
   font-size: 30px;
   letter-spacing: 5px;
 }
+.service-plan h1{
+  margin-top: -40px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
 .service-plan p{
 font-family: "Work Sans";
 font-weight: 400;
@@ -313,6 +325,8 @@ font-size: 20px;
 line-height: 25px;
 letter-spacing: 0px;
 text-align: center;
+width: 250px;
+height: 85px;
 
 }
 .frame{
@@ -321,7 +335,7 @@ text-align: center;
   justify-content: center; 
   align-items: center; 
   text-align: center;
-  margin-left: 50px;
+  margin-left: 20px;
   
 }
 .contact-us{
@@ -428,6 +442,27 @@ text-align: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.styled-button {
+  background-color: #ffffff; /* Blue background */
+  border: none; 
+  color: #2c6e2c;; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Get the element to sit inline */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon on hover */
+  border-radius: 8px; /* Rounded corners */
+}
+.styled-button:hover {
+  background-color:  #e6e6e6; /* Darker blue on hover */
+}
+@media screen and (min-width: 360px){
+.frame{
+  margin-left: -2%;
+}
+}
 @media (max-width:768px) {
   .contact-page-container {
     flex-direction: column;
@@ -444,6 +479,9 @@ text-align: center;
   .map-container iframe{
     height: 250px;
   }
+  .contact-us p{
+    width: 400px;
+  }
   
 }
 @media (min-width: 768px) {
@@ -459,7 +497,7 @@ text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-left: 30%;
+    margin-left: 60%;
     margin-top: -30px;
   }
   .explore-button{
@@ -497,12 +535,18 @@ text-align: center;
     flex-direction: row;
     gap:30px
   }
+  .contact-us p{
+    width: 350px;
+  }
+  .service-plan p{
+    width: 500px;
+  }
   
 }
 
 @media screen and (min-width: 1024px){
   .nav-links{
-    transform: translateX(70px);
+    transform: translateX(80px);
   }
 
   .logo-text{
@@ -532,6 +576,9 @@ text-align: center;
   .contact-form-container {
     flex: 1;
     max-width: 45%;
+  }
+  .frame{
+    margin-bottom: 30px;
   }
 }
   
@@ -563,6 +610,9 @@ text-align: center;
     display: inline-block;
       white-space: nowrap;
   
+  }
+  .frame{
+    margin-bottom: 50px;
   }
   /*footer styles*/
   .footer{
@@ -602,7 +652,7 @@ text-align: center;
         justify-content: flex-start; 
         color: #FFF;
         text-decoration: none;
-        transform: translateX(60%);
+        transform: translateX(10%);
         margin-top: -30px;
       }
       .mail-sec{
