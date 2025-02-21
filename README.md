@@ -32,7 +32,7 @@ Welcome to the Startup Website. The startup website is the online presence for a
 This website is designed to provide innovative, efficient and user-friendly solutions to every problems, empowering businesses and individuals alike.Users can navigate between pages (e.g., homepage and portfolio) via React Router, ensuring smooth transitions and experience.
 
 ## Live Demo
-Check out live demo of my project:[Live Demo Link]( https://fauziyyanura.github.io/startup-website)
+Check out live demo of my project:[Live Link]( https://fauziyyanura.github.io/startup-website)
 
 ## Features
 -Animations: Libraries like Framer Motion was used to add engaging animations and transitions to the app.
@@ -51,14 +51,14 @@ To get started with the Startup Website, follow these steps:
 1\. **Clone the repository:**
 
 ```sh
-git clone https://github.com/fauziyyanura/startup-website-2.git
+git clone https://github.com/fauziyyanura/startup-website.git
 
 ```
 
 2\. **Navigate to the Project Directory:**
 
 ```sh
-cd startuo-website-2
+cd startup-website
 
 ```
 In the project directory, you can run:
@@ -80,13 +80,13 @@ Key features include:
 This project is licensed under the MIT Licenses - See the [LICENSE](LICENSE) file for more details.
 
 ## Learn more about my Startup Website
-Watch my loom video: [video](https://www.loom.com/share/4fd1d9a020a442fa944ece77fe403ead?sid=6cd3863a-86c1-4baf-a8e1-01b5474d5b9d)
+Watch my loom video: [video](https://www.loom.com/share/568e33f3c4034bd0b2eaee6501340b35?sid=acdb3391-be2d-444b-8d83-36080f08eb50)
 
 ## Author(s)
 If you have any questions or need further assistance, feel free to reach out:
 - **Name:** Fauziyya Nura Ahmed
 - **Email:** fauziyyanuraahmad@gmail.com
 - **GitHub:** https://github.com/fauziyyanura
-- **Website:** https://startup-website-2.onrender.com
+- **Website:** https://startup-website-3bqc.onrender.com
 
   Thank you for visiting the Startup Website repository.We hope you find it useful and enjoy contributing to the project.
